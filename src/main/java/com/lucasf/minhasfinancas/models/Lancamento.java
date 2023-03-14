@@ -1,5 +1,6 @@
 package com.lucasf.minhasfinancas.models;
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -8,6 +9,7 @@ import java.time.LocalDate;
 
 @Getter
 @Setter
+@Data
 public class Lancamento {
     private Long id;
     private Integer mes;
